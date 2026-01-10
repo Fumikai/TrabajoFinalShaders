@@ -1,4 +1,5 @@
 Javier Portillo-Fumikai – Shader de Agua (Cartoon)
+
 Este proyecto consiste en un shader de agua estilo cartoon, diseñado para simular profundidad, movimiento de olas y variación visual mediante ruido procedural (Voronoi/Perlin).
 
 Características principales
