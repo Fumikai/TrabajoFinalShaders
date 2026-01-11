@@ -22,3 +22,20 @@ Usando voronoi y dandole un specular a la textura, se crea el efecto perlin nois
 El shader se le puede aplicar a la textura y desde ahi se pueden modificar todos los valores.
 
 <img width="310" height="361" alt="image" src="https://github.com/user-attachments/assets/7c2c94da-574b-4b5b-9536-35ea4808ccd7" />
+
+
+Sekiroboy-Doménec Gregori: Shader de cesped procedural.
+
+He empezado creando un material y plicandole el shader. La primera parte ha sido aplicar un sombreado al contacto del agua y el suelo en funcion a la altura.
+
+<img width="829" height="375" alt="image" src="https://github.com/user-attachments/assets/735b8a95-ab1b-4d32-b2b3-feda4620c07b" />
+
+Despues he aplicado la generación procedural de cesped por codigo
+
+<img width="1101" height="648" alt="image" src="https://github.com/user-attachments/assets/15440b58-b25f-4861-b10e-fe4e6a820744" />
+
+Aprovechando la altura del terrendo en el mapa conjunto, he decidido crear nieve en las alturas siguiendo el mismo principio que la sombra.
+
+<img width="993" height="641" alt="image" src="https://github.com/user-attachments/assets/97594123-cd8b-40d3-9df0-017734d2a425" />
+
+Finalmente para poder aplicarlo al terreno creado, lo transformamos en maya y ajustamos los parametros para que se ajustasen a su forma.
