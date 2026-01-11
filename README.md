@@ -23,7 +23,6 @@ El shader se le puede aplicar a la textura y desde ahi se pueden modificar todos
 
 <img width="310" height="361" alt="image" src="https://github.com/user-attachments/assets/7c2c94da-574b-4b5b-9536-35ea4808ccd7" />
 
-
 Sekiroboy-Doménec Gregori: Shader de cesped procedural.
 
 He empezado creando un material y plicandole el shader. La primera parte ha sido aplicar un sombreado al contacto del agua y el suelo en funcion a la altura.
@@ -39,3 +38,9 @@ Aprovechando la altura del terrendo en el mapa conjunto, he decidido crear nieve
 <img width="993" height="641" alt="image" src="https://github.com/user-attachments/assets/97594123-cd8b-40d3-9df0-017734d2a425" />
 
 Finalmente para poder aplicarlo al terreno creado, lo transformamos en maya y ajustamos los parametros para que se ajustasen a su forma.
+
+<img width="429" height="399" alt="image" src="https://github.com/user-attachments/assets/fa9249ef-041e-4619-bd05-6d6fd3360d29" />
+
+
+<img width="987" height="587" alt="image" src="https://github.com/user-attachments/assets/8b445243-c074-4987-be9f-5163c0de5192" />
+
