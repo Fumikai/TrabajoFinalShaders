@@ -44,3 +44,22 @@ Finalmente para poder aplicarlo al terreno creado, lo transformamos en maya y aj
 
 <img width="987" height="587" alt="image" src="https://github.com/user-attachments/assets/8b445243-c074-4987-be9f-5163c0de5192" />
 
+Shimadita-Diego Muñoz: Shader de niebla para objetos alejados.
+
+He emepzado creando un onjeto de forma cubo y le he añadido un material de un shader graph.
+
+Despues he creado 4 variables en mi shadergraph, 2 colores ( El color del cubo y luego el color de la niebla) y dos float ( La distancia inicial en la que se empezará a aplicarse el shader y otra para la diostancia en la que el shader esta en su punto maximo).
+
+Despues he creado diferentes nodos, que interactuan entre si para detectar la posicion de la camara para que el shader funcione dependiendo de la distancia en relación a esta. Y luego he añadido un nodo que funciona como fade para esta niebla, para terminar modifique la niebla para que no solo se viera gris pero que tuviera una forma y que fuera moviendose, esto lo añadí con un simple noise que se moviera con el tiempo.
+
+<img width="686" height="487" alt="image" src="https://github.com/user-attachments/assets/8ac57d9e-3865-4922-b7f5-8a82157ec9fd" />
+
+Luego fui moviendome en el editor para comprobar que las distancias de fade in o fade out del shader estaban bien
+
+De cerca:
+
+<img width="1122" height="614" alt="image" src="https://github.com/user-attachments/assets/2e2604a5-b5d9-4d73-b0bb-158c02048dde" />
+
+De lejos:
+
+<img width="1134" height="602" alt="image" src="https://github.com/user-attachments/assets/09708f58-6290-441a-8ed2-b5bd0f888eab" />
